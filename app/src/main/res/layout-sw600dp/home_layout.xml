@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:text="Driver's Profile"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : ABCDE"
+                android:paddingBottom="25dp"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience: 2yrs"
+                android:textSize="22sp"
+                android:paddingBottom="25dp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile No : 12345"
+                android:textSize="22sp"
+                android:paddingBottom="25dp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age: 30yrs"
+                android:textSize="22sp"
+                android:paddingBottom="25dp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Licence valid : 21-12-2017"
+                android:textSize="22sp"
+                android:paddingBottom="25dp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trips Made: 200"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"/>
+            <!--<RatingBar-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:numStars="5"-->
+                <!--android:stepSize="1.0"-->
+                <!--android:rating="3"-->
+               <!--/>-->
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:src="@drawable/images"
+                android:paddingBottom="25dp"
+                android:layout_gravity="end"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="1"
+                    android:rating="1"
+                    android:layout_gravity="end"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="3.5"
+                    android:textSize="40sp"
+                    android:paddingBottom="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_gravity="end"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
